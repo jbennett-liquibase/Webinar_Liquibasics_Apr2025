@@ -25,10 +25,10 @@ If you need a new Pro key, you can request one [here](https://www.liquibase.com/
     *Safe to close browser window but leave command prompt/terminal open*
 # 📋 Demo Steps
 
-1. Command.Terminal Prompt<br>
-    Open a new command prompt/terminal and change to the folder were the repository was cloned.
+1. Command/Terminal Prompt<br>
+    Open a new command prompt/terminal window and change to the folder were the repository was cloned.
 1. Status Command<br>
-    The status command allows us to view pending changes.
+    The status command allows us to view pending database changes.
     ```
     liquibase status
     ```
@@ -63,7 +63,7 @@ Liquibase tracks all database changes it deploys. Lets deploy some additional ch
     ```
     The history command, run at the end of the flow, displays all the database changes Liquibase has deployed. Notice we have two deployments now: four changes from step three and two changes from our our most recent deployment.
 1. 🎉 Congratulations!!!<br>
-    This concludes the interactive demo.     You can continue to experiment or simply close the command prompt/terminal windows.
+    This concludes the interactive demo. You can continue to experiment or simply close the command prompt/terminal windows.
 
 # 📒 Liquibase Documentation
 * [Documentation Home](https://docs.liquibase.com/home.html)
