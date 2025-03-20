@@ -62,8 +62,8 @@ Liquibase tracks all database changes it deploys. Lets deploy some additional ch
     Liquibase command 'flow' was executed successfully.
     ```
     The history command, run at the end of the flow, displays all the database changes Liquibase has deployed. Notice we have two deployments now: four changes from step three and two changes from our our most recent deployment.
-1. 🎉 Congratulations!
-    You can continue to experiment or simply close the command prompt/terminal windows.
+1. 🎉 Congratulations!!!<br>
+    This concludes the interactive demo.     You can continue to experiment or simply close the command prompt/terminal windows.
 
 # 📒 Liquibase Documentation
 * [Documentation Home](https://docs.liquibase.com/home.html)
