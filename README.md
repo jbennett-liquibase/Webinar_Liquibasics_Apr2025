@@ -42,9 +42,9 @@ If you need a new Pro key, you can request one [here](https://www.liquibase.com/
     Liquibase command 'status' was executed successfully.
     ```
 1. Flow Command<br>
-Liquibase workflows allow you to define a standard set of steps to deploy your database changes. In this way you can always ensure your database deployments are done consistently following your best practices, regardless of automation tool or database platform.
+Liquibase workflows allow you to define a standard set of deployment steps for your database changes. In this way you can always ensure your deployments are done consistently following your best practices, regardless of automation tool or database platform.
     ```
-    liquibase flow
+    liquibase flow --flow-file=developer.flowfile.yaml
     ```
     The flow will run several Liquibase commands. At the end, you should see this:
     ```
@@ -55,7 +55,7 @@ Liquibase workflows allow you to define a standard set of steps to deploy your d
 1. New Release<br>
 Liquibase tracks all database changes it deploys. Lets deploy some additional changes as part of a new release. In the [changelog.main.xml](changelog.main.xml) file, remove lines 58 and 79 and save the file. Then we'll run our flow again.
     ```
-    liquibase flow
+    liquibase flow --flow-file=developer.flowfile.yaml
     ```
     As before, the flow will run several Liquibase commands. At the end, you should see this:
     ```
